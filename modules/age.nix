@@ -35,7 +35,7 @@ let
     mkdir -p "${cfg.secretsMountPoint}"
     chmod 0751 "${cfg.secretsMountPoint}"
 
-     ${mntCmd}
+    ${mountCmd}
 
     mkdir -p "${cfg.secretsMountPoint}/$_agenix_generation"
     chmod 0751 "${cfg.secretsMountPoint}/$_agenix_generation"
